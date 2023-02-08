@@ -1,0 +1,33 @@
+.firstscreen {
+}
+.firstscreen-left {
+  width: 600px;
+}
+.main-title {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.main-title::before {
+  content: "Hi!";
+  display: block;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.firstscreen-left-text p {
+  font-size: 23px;
+  font-weight: 400;
+}
+.firstscreen-right {
+  width: 500px;
+}
+.firstscreen-right-img {
+  width: 500px;
+  height: 466px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.firstscreen-right-img img {
+  width: 100%;
+}

@@ -1,0 +1,11 @@
+.additional {
+}
+.passion::after {
+  content: "passions";
+  font-weight: 700;
+}
+.card-span {
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+}

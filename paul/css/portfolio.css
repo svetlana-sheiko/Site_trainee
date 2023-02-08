@@ -1,0 +1,58 @@
+.portfolio-title::after {
+  content: "portfolio";
+  font-weight: 700;
+}
+.card-portfolio-title {
+  font-size: 25px;
+  font-weight: 500;
+  color: coral;
+  margin-bottom: 30px;
+}
+.card-portfolio-title__commerce {
+  font-size: 25px;
+  font-weight: 500;
+  color: cornflowerblue;
+  margin-bottom: 30px;
+}
+.card-portfolio-title__commerce::before {
+  content: "E-";
+  display: inline-block;
+  margin-right: 15px;
+}
+.card-portfolio-title::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background: url("../img/icons/sendpay.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.card-portfolio-img {
+  width: 289px;
+  height: 164px;
+  margin-left: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-portfolio-img img {
+  width: 100%;
+}
+
+.portfolio-card::before {
+  content: "";
+  width: 195px;
+  height: 195px;
+  background-color: rgba(255, 127, 80, 0.3);
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
